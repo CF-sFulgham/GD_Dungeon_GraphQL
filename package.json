@@ -1,0 +1,32 @@
+{
+  "name": "dungeon-rpg-graphql-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && tsc --outDir dist --rootDir src",
+    "start": "node server.js",
+    "watch": "node --watch dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "5.0.1",
+    "@types/node": "22.15.17",
+    "rimraf": "6.0.1",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "@apollo/server": "4.12.0",
+    "dotenv": "16.5.0",
+    "express": "5.1.0",
+    "graphql": "16.11.0",
+    "graphql-http": "1.22.4",
+    "pg": "8.15.6",
+    "ts-node": "10.9.2",
+    "type-graphql": "2.0.0-rc.2",
+    "uuid": "11.1.0"
+  }
+}
