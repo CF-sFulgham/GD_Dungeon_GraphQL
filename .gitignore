@@ -5,9 +5,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
-.env
-.env.local
-.env.*.local
+# I nornally do not include .env files in the repository
+# .env
+# .env.local
+# .env.*.local
 
 # Logs
 logs/
